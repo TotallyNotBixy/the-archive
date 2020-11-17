@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\magnet]
+@="URL:MAGNET URI"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\magnet\DefaultIcon]
+@="C:\\Program Files (x86)\\Deluge\\deluge.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\magnet\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\magnet\shell\open]
+
+[HKEY_CURRENT_USER\Software\Classes\magnet\shell\open\command]
+@="C:\\Program Files (x86)\\Deluge\\deluge.exe \"%1\""
